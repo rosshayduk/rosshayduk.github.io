@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Cardo:400,400italic,700);
+
+
+/*These rules create the basic layout*/
+
+
+html { 
+  background: url(../images/cafe.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+    height: auto;
+    width: 1200px;
+    top: 0px;
+    left: 0px;
+}
+
+
+body {
+    height: 800px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Cardo', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/*These rules format the site content*/
+
+
+.background_image {
+    background-image: url("../images/cafe.jpg");
+    width: auto;
+    height: auto;    
+}
+
+.header_image {
+    padding-top: 1%;
+    width: 25%;
+    height: auto;
+    top: 0;
+    left:50%;
+    margin: 50px;   
+}
+    
+div {
+    height: 600px;
+    width: 1200px;
+    position: absolute;
+    top: 25%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 50px;
+}
+
+p {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Cardo', sans-serif;
+    line-height: 40px;
+    
+}
+
+
+/*Add rules here for the site navigation*/
+
+table {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: white;
+}
+
+td {
+    vertical-align: center;
+    font-size: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    padding: 12px;
+    color: #46241A;
+    font-size: 30px;
+}
+
+a:hover {
+    font-weight: bold;
+    padding: 6px;
+}
+
+
